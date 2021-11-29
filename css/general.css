@@ -23,13 +23,16 @@ Paragraph default: 1.6
 --- 02 Colors
 
 - Primary: #e67e22
-- Tints: #fdf2e9, #fae5d3
+- Tints: #eb984e, #fdf2e9, #fae5d3
 - Shades: #cf711f
 - Accents:
 - Greys: #555, #333, #f6f6f6 (lightest grey allowed on #fdf2e9)
 
 
 --- 05 Shadows 
+deafult: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+
 
 --- 06 Border-Radius
 
@@ -95,6 +98,15 @@ body {
   column-gap: 6.4rem;
   row-gap: 9.6rem;
   /* grid-template-columns: repeat(2, 1fr); */
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 9.6rem;
+} */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-columns {
@@ -106,7 +118,7 @@ body {
 }
 
 .grid--4-columns {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid--center-v {
@@ -208,6 +220,25 @@ body {
   border-bottom: 0.1rem solid transparent;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
 /* Helper/setting classes */
 .center-text {
   text-align: center;
@@ -218,7 +249,7 @@ body {
 }
 
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 
 strong {
