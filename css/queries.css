@@ -250,6 +250,10 @@
     width: 80%;
   }
 
+  .section-featured .logos {
+    justify-content: space-between;
+  }
+
   .logos img {
     height: 1.2rem;
   }
