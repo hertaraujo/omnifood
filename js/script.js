@@ -53,7 +53,6 @@ const observer = new IntersectionObserver(
 );
 observer.observe(sectionHeroEl);
 
-///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement('div');

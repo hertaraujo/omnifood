@@ -1,4 +1,4 @@
-/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem ALWAYS = 1em = 16px */
 
 /*********************************/
 /* Below 1344px (smaller desktops) 1350 / 16 = 84,375 */
@@ -76,7 +76,6 @@
 
   .hero-img {
     width: 60%;
-    /* height: auto; */
   }
 
   .delivered-meals {
@@ -141,10 +140,6 @@
     transition: all 0.5s ease-in;
 
     /* Hidden nav by default */
-
-    /* Allows no transition at all */
-    /* display: none; */
-
     /* 1) Hide it visually */
     opacity: 0;
     /* 2) Make it unaccessible to mouse and keyboard */
