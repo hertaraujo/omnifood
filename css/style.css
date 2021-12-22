@@ -27,9 +27,9 @@
   height: 2.2rem;
 }
 
-/*********************************/
+/**************/
 /* Navigation */
-/*********************************/
+/**************/
 
 .main-nav-list {
   list-style: none;
@@ -84,9 +84,9 @@
   display: none;
 }
 
-/*********************************/
+/****************/
 /* Hero Section */
-/*********************************/
+/****************/
 
 .section-hero {
   background-color: #fdf2e9;
@@ -524,12 +524,7 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
-      155deg,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
-    url(../img/eating.jpg);
+  background-image: linear-gradient(155deg, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url(../img/eating.jpg);
   background-size: cover;
   background-position: center;
 }
