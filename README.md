@@ -3,4 +3,4 @@
 ![Omnifood logo](https://github.com/hertaraujo/omnifood/blob/master/img/favicon.png?raw=true) 
 ### [Omnifood's](https://omnifood-hert.netlify.app/) landing page (fictional company) 
 
-The project is intend to be a pratictice of semantic HTML, CSS grid and flexbox, media queries and more.
+The purpose of the project is to practice semantic HTML, CSS grid and flexbox, media queries and much more.
