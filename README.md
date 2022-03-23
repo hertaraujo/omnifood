@@ -8,6 +8,3 @@ The purpose of the project is to practice semantic HTML, CSS grid and flexbox, a
 ### Technologies
 Advanced and modern CSS\
 Semantic HTML
-
-<br />
-<br />
